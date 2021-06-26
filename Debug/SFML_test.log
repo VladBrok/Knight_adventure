@@ -1,0 +1,26 @@
+﻿Построение начато 26.06.2021 20:01:57.
+     1>Проект "D:\C++ learning\SFML_test\SFML_test.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\SFML_test.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\SFML\SFML-2.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\c++ learning\sfml_test\main.cpp(25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>d:\c++ learning\sfml_test\main.cpp(43): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\c++ learning\sfml_test\main.cpp(45): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\c++ learning\sfml_test\main.cpp(68): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\c++ learning\sfml_test\main.cpp(70): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++ learning\SFML_test\Debug\SFML_test.exe" /NOLOGO /LIBPATH:"D:\SFML\SFML-2.0\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-audio-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SFML_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\C++ learning\SFML_test\Debug\SFML_test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++ learning\SFML_test\Debug\SFML_test.lib" /MACHINE:X86 Debug\main.obj
+         LINK : не найден или не выполнена сборка D:\C++ learning\SFML_test\Debug\SFML_test.exe при последней инкрементной компоновке; выполняется полная компоновка
+         SFML_test.vcxproj -> D:\C++ learning\SFML_test\Debug\SFML_test.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\C++ learning\SFML_test\Debug\SFML_test.exe;#1" /manifest Debug\SFML_test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\SFML_test.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SFML_test.lastbuildstate".
+     1>Построение проекта "D:\C++ learning\SFML_test\SFML_test.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.42
